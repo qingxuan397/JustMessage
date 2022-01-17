@@ -1,1 +1,4 @@
-# JustMessage
+##什么是 JustMessage？
+JustMessage，如你所见，它仅仅是一个第三方消息分发工具类库，它可以让我们脱离繁琐的第三方消息分发SDK，让消息变得So easy!
+
+JustMessage 计划集成：微信公众号模板消息、微信小程序订阅消息、微信企业号/企业消息、钉钉、阿里云短信、E-Mail等国内外数十家第三方平台。
