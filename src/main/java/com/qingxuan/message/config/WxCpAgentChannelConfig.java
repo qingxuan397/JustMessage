@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class WxCpAgentPlatformConfig extends PlatformConfig {
+public class WxCpAgentChannelConfig extends ChannelConfig {
 
     /**
      * 企业ID

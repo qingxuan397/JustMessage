@@ -12,7 +12,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class EmailPlatformConfig extends PlatformConfig {
+public class EmailChannelConfig extends ChannelConfig {
 
     /**
      * 邮件服务器的SMTP地址

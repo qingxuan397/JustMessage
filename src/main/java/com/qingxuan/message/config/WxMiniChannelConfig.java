@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class WxMiniPlatformConfig extends PlatformConfig {
+public class WxMiniChannelConfig extends ChannelConfig {
     /**
      * 开发者ID
      */

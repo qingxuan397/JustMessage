@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @date: 2022/2/15 18:13
  */
 @Data
-public abstract class PlatformConfig implements Serializable {
+public abstract class ChannelConfig implements Serializable {
     private static final long serialVersionUID = 2765017560754006377L;
 
 }

@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class SmsPlatformConfig extends PlatformConfig {
+public class SmsChannelConfig extends ChannelConfig {
 
     private String accessKeyId;
 

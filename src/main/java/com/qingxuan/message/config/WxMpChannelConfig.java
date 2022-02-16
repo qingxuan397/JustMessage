@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class WxMpPlatformConfig extends PlatformConfig {
+public class WxMpChannelConfig extends ChannelConfig {
 
     private String appId;
     private String secret;

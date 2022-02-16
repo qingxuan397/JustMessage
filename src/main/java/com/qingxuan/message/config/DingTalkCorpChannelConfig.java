@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class DingTalkCorpPlatformConfig extends PlatformConfig {
+public class DingTalkCorpChannelConfig extends ChannelConfig {
 
     /**
      * 应用appKey
