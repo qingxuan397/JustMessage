@@ -12,7 +12,13 @@ import lombok.Getter;
 public enum MessageTypeEnum {
 
     EMAIL("普通邮件 ", MessageChannelEnum.EMAIL),
-    SMS("普通短信 ", MessageChannelEnum.SMS),
+
+    // ================================短信====================================
+    SMS_ALI("阿里云短信 ", MessageChannelEnum.SMS),
+    SMS_TENCENT("腾讯云短信 ", MessageChannelEnum.SMS),
+    SMS_HUAWEI("华为云短信 ", MessageChannelEnum.SMS),
+    SMS_BAIDU("百度云短信 ", MessageChannelEnum.SMS),
+    SMS_QINIU("七牛云短信 ", MessageChannelEnum.SMS),
 
     // ================================企业微信-应用====================================
     WECHAT_WORK_AGENT_TEXT("文本", MessageChannelEnum.WECHAT_WORK_AGENT),
@@ -56,10 +62,14 @@ public enum MessageTypeEnum {
     ;
 
     /**
+     * 名称
+     */
+    private final String name;
+
+    /**
      * 所属平台
      */
     private final MessageChannelEnum platform;
-    private final String name;
 
     MessageTypeEnum(String name, MessageChannelEnum platform) {
         this.name = name;

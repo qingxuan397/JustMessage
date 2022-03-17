@@ -23,7 +23,7 @@ public class DingTalkCorpChannelConfig extends ChannelConfig {
     /**
      * 应用Secret
      */
-    private String AppSecret;
+    private String appSecret;
 
     /**
      * 应用agentId
